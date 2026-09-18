@@ -136,7 +136,7 @@ class BasketballShoe extends Sneaker {
 
 // Casual sneakers - no discount by default
 class CasualSneaker extends Sneaker {
-    private String style;
+    private final String style;
 
     public CasualSneaker(String brand, String model, double price, int stockCount, String style) {
         super(brand, model, price, stockCount);
