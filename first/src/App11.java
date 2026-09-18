@@ -14,8 +14,5 @@ public class App11 {
         main -> method name; the entry point of the program
         clearly a method cannot be abstract and static at the same time.
         */
-        
-
-
     }
 }
